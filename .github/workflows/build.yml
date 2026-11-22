@@ -25,7 +25,7 @@ jobs:
       uses: geode-sdk/build-geode-mod@main
       with:
         bindings: geode-sdk/bindings
-        sdk: nightly
+        sdk: v5.11.2
         configure-args: '-DCMAKE_BUILD_TYPE=Release'
         build-config: Release
         path: geode-mod
