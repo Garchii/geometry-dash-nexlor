@@ -735,8 +735,7 @@ public:
         auto editor = editorUI->m_editorLayer;
         if (!editor) return "ERROR: No editor layer";
         
-        // Path to Desktop
-        std::string path = 
+        // Path to Desktop 
 std::string path = (geode::dirs::getGameDir() / filename).string();
         
         // Hide UI
