@@ -737,7 +737,7 @@ public:
         
         // Path to Desktop
         std::string path = 
-std::string path = (geode::dirs::getGameDir() / filename).string(); / filename).string();
+std::string path = (geode::dirs::getGameDir() / filename).string();
         
         // Hide UI
         editorUI->setVisible(false);
